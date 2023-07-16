@@ -25,6 +25,6 @@ int main (int argc, char *argv[]) {
     }
 
     printf("Probalidad de ganar sin cambiar de puerta: %d\n", ganar_sin_cambiar);
-    printf("Probalidad de ganar cambiando de puerta: %d", ganar_cambiando);
+    printf("Probalidad de ganar cambiando de puerta: %d\n", ganar_cambiando);
 
 }

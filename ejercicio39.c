@@ -24,9 +24,9 @@ int main (int argc, char *argv[]) {
     }
     printf("%d\n", aDadoVuelta);
     if(aDadoVuelta == b){
-        printf("Son capicua");
+        printf("Son capicuas\n");
     }
     else {
-        printf("No son capicua");
+        printf("No son capicuas\n");
     }
 }

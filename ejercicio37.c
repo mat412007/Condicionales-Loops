@@ -7,9 +7,10 @@ int main () {
     int resultado = rand() % 2;
 
     if(resultado == 0){
-        printf("Cara");
+        printf("Cara\n");
     }
     else {
-        printf("Ceca");
+        printf("Ceca\n");
     }
+    return 0;
 }

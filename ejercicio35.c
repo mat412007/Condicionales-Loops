@@ -16,6 +16,6 @@ int main (int argc, char *argv[]) {
         }
     }
 
-    printf("El producto es: %d", producto);
+    printf("El producto es: %d\n", producto);
     return 0;
 }
