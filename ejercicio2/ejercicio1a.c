@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 int valor_absoluto(int a) {
-    if (a >= 0) return a;
+    if (a > 0) return a;
     return -a;
 }
 int main(int argc, char *argv[]) {

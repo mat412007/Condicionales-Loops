@@ -8,7 +8,7 @@ int main (int argc, char *argv[]) {
     
     while(numero > 1){
         if(numero % divisor == 0){
-            printf("%d \n", divisor);
+            printf("%d ", divisor);
             // numero = 60 / 2 = 30
             // numero = 30 / 2 = 15
             // numero = 15 / 2 = 7.5
@@ -18,5 +18,6 @@ int main (int argc, char *argv[]) {
             divisor++;
         }
     }
+    printf("\n");
     return 0;
 }

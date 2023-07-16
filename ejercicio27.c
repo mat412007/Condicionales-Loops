@@ -9,11 +9,10 @@ int main (int argc, char *argv[]) {
         printf("Error: el numero es negativo");
         return 1;
     }
-    int dos_n = pow(2, n);
 
-    for(int i = 0; i <= dos_n; i++){
+    for(int i = 0; i <= n; i++){
         int potencia = pow(2, i);
-        printf("%d\n", potencia);
+        printf("2^%d = %d\n", i, potencia);
     }
     return 0;
 }

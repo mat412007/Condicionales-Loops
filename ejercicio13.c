@@ -6,14 +6,15 @@ bool es_primo(int n){
     int i = 2;
     while(i < n){
         if(n % i == 0){
-            prime = false; break; 
+            return false; 
+            break; 
         }  
         i++;
     }
-    return prime;
+    return true;
 }
 int main( int argc, char *argv[]){
     int n = atoi(argv[1]);
-    printf("%s\n", es_primo(n) ? "es primo" : "no es primo");
+    printf("%s\n", es_primo(n) ? "Es primo" : "No es primo");
     return 0;
 }

@@ -9,5 +9,5 @@ int linea() {
     }
 }
 int main(int argc,char *argv[]) {
-    return linea();
+    linea();
 }

@@ -32,6 +32,6 @@ int main(int argc, char *argv[]){
         // 2 / 2 = 1
         potencia /= 2;
     }
-    
+    printf("\n");
     // 10
 }

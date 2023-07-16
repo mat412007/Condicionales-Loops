@@ -6,7 +6,11 @@ int main(int argc, char *argv[]){
 
     for(int i = 1; i <= n; i++){
         if(i % 2 == 0){
-            printf("\n%d", i);
+            printf("%d ", i);
         }
+        if(i % 10 == 0){
+        printf("\n");
     }
+    }
+    
 }

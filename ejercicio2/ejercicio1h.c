@@ -4,7 +4,7 @@
 
 void tabla(int n) {
     for(int counter = 1; counter <= n; counter++) {
-        printf("%d, %d\n", counter, counter*counter);
+        printf("%d\t%d\n", counter, counter*counter);
     }
 }
 int main(int argc, char *argv[]) {

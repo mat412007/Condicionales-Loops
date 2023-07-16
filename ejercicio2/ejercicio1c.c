@@ -3,13 +3,13 @@
 
 void decision(int a) {
     if(a > 0) {
-        printf("Es positivo.");
+        printf("Es positivo.\n");
     }
     else if(a == 0) {
-        printf("Es igual a 0.");
+        printf("Es igual a 0.\n");
     }
     else {
-        printf("Es negativo.");
+        printf("Es negativo.\n");
     }
 }  
     int main(int argc, char *argv[]) {

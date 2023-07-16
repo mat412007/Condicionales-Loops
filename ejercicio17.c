@@ -13,7 +13,7 @@ int main () {
         double n_2 = pow(numero, 2);
         double n_3 = pow(numero, 3);
         double dos_n = pow(2, numero);
-        printf("%.3f\t%d\t%.3f\t%.3f\t%.3f\t%.3f\n", ln_n, numero, n_ln_n, n_2, n_3, dos_n);
+        printf("%.1f\t%d\t%.1f\t%.1f\t%.1f\t%.1f\n", ln_n, numero, n_ln_n, n_2, n_3, dos_n);
     }
     return 0;
 }
